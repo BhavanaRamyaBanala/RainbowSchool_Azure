@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Oursite.master.cs" Inherits="RainbowSchool_AzureWeb.Oursite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="OurStyle.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            position: absolute;
+            top: 21px;
+            left: 32px;
+            z-index: 1;
+            height: 23px;
+            width: 57px;
+        }
+        .auto-style3 {
+            position: absolute;
+            top: 21px;
+            left: 296px;
+            z-index: 1;
+            width: 70px;
+            height: 27px;
+        }
+        .auto-style4 {
+            position: absolute;
+            top: 22px;
+            left: 624px;
+            z-index: 1;
+            width: 62px;
+        }
+        .auto-style5 {
+            position: absolute;
+            top: 22px;
+            left: 934px;
+            z-index: 1;
+            width: 104px;
+            height: 19px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topPanel"><h1>Rainbow School Management</h1></div>
+    <form id="form1" runat="server">
+        <div class="menuPanel">
+                <table class="auto-style1">
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style2" ForeColor="Blue" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>
+                        </td>
+                        <td>
+                            <asp:HyperLink ID="HyperLink2" runat="server" CssClass="auto-style3" ForeColor="Blue" NavigateUrl="~/Students.aspx">Students</asp:HyperLink>
+                        </td>
+                        <td>
+                            <asp:HyperLink ID="HyperLink3" runat="server" CssClass="auto-style4" ForeColor="Blue" NavigateUrl="~/Classes.aspx">Classes</asp:HyperLink>
+                        </td>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:HyperLink ID="HyperLink4" runat="server" CssClass="auto-style5" ForeColor="Blue" NavigateUrl="~/Teachers.aspx">Teachers</asp:HyperLink>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        <div class="mainPanel">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

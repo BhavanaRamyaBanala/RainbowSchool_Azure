@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="RainbowDbazure1ConnectionString-Web.config Connection String" description="RainbowDbazure1ConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=sqlserverazure1.database.windows.net;Initial Catalog=RainbowDbazure1;User ID=BhavanaRamya;Password=Satyavani@123;TrustServerCertificate=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\dotNet\\Testing\\RainbowSchool_AzureWeb\\RainbowSchool_AzureWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RainbowDbazure1ConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="RainbowDbazure1ConnectionString2-Web.config Connection String" description="RainbowDbazure1ConnectionString2 Connection String used in web.config by the application to access the database." defaultValue="Data Source=sqlserverazure1.database.windows.net;Initial Catalog=RainbowDbazure1;User ID=BhavanaRamya;Password=Satyavani@123;TrustServerCertificate=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\dotNet\\Testing\\RainbowSchool_AzureWeb\\RainbowSchool_AzureWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RainbowDbazure1ConnectionString2']/@connectionString" />
+  </parameter>
+  <parameter name="RainbowDbazure1ConnectionString3-Web.config Connection String" description="RainbowDbazure1ConnectionString3 Connection String used in web.config by the application to access the database." defaultValue="Data Source=sqlserverazure1.database.windows.net;Initial Catalog=RainbowDbazure1;User ID=BhavanaRamya;Password=Satyavani@123;TrustServerCertificate=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\dotNet\\Testing\\RainbowSchool_AzureWeb\\RainbowSchool_AzureWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RainbowDbazure1ConnectionString3']/@connectionString" />
+  </parameter>
+</parameters>
